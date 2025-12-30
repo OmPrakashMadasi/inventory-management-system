@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'poppins';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-image: url('../src/assets/logo/spicymeal-nobg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+code {
+  font-family: 'poppins',;
+}
+html, body, #root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer a:hover {
+  color: #fff !important;
+}
